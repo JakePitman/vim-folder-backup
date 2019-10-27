@@ -26,13 +26,13 @@ endif
 let g:colors_name = 'midnightsun'
 
 
-hi! ColorColumn cterm=NONE ctermbg=235 guibg=#1e2132
-hi! CursorColumn cterm=NONE ctermbg=235 guibg=#1e2132
+hi! ColorColumn cterm=NONE ctermbg=232 guibg=#1e2132
+hi! CursorColumn cterm=NONE ctermbg=232 guibg=#1e2132
 hi! CursorLine cterm=NONE ctermbg=235 guibg=#1e2132
 hi! Comment ctermfg=24 guifg=#6b7089
 hi! Constant ctermfg=6 guifg=#a093c7
 hi! Cursor ctermbg=252 ctermfg=232 guibg=#c6c8d1 guifg=#161821
-hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
+hi! CursorLineNr ctermbg=232 ctermfg=81 guibg=#2a3158 guifg=#cdd1e6
 hi! Delimiter ctermfg=252 guifg=#c6c8d1
 hi! DiffAdd ctermbg=29 ctermfg=158 guibg=#45493e guifg=#c0c5b9
 hi! DiffChange ctermbg=23 ctermfg=159 guibg=#384851 guifg=#b3c3cc
@@ -50,7 +50,7 @@ hi! FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
 hi! Function ctermfg=123 guifg=#84a0c6
 hi! Identifier cterm=NONE ctermfg=14 guifg=#89b8c2
 hi! Include ctermfg=81 guifg=#84a0c6
-hi! LineNr ctermbg=235 ctermfg=67 guibg=#1e2132 guifg=#444b71
+hi! LineNr ctermbg=232 ctermfg=67 guibg=#1e2132 guifg=#444b71
 hi! MatchParen ctermbg=255 ctermfg=236 guibg=#3e445e guifg=#ffffff
 hi! MoreMsg ctermfg=150 guifg=#b4be82
 hi! Normal ctermbg=232 ctermfg=255 guibg=#161821 guifg=#c6c8d1
@@ -63,9 +63,10 @@ hi! PreProc ctermfg=39 guifg=#b4be82
 hi! Question ctermfg=150 guifg=#b4be82
 hi! QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#c6c8d1
 hi! Search ctermbg=67 ctermfg=0 guibg=#e4aa80 guifg=#392313
-hi! SignColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
+hi! SignColumn ctermbg=232 ctermfg=239 guibg=#1e2132 guifg=#444b71
 hi! Special ctermfg=33 guifg=#b4be82
-hi! SpellBad ctermbg=81 ctermfg=0 gui=undercurl guisp=#e27878
+"hi! SpellBad ctermbg=24 ctermfg=255 gui=undercurl guisp=#e27878
+hi! SpellBad ctermbg=236 ctermfg=255 gui=undercurl guisp=#e27878
 hi! SpellCap ctermbg=24 ctermfg=252 gui=undercurl guisp=#84a0c6
 hi! SpellLocal ctermbg=23 ctermfg=252 gui=undercurl guisp=#89b8c2
 hi! SpellRare ctermbg=97 ctermfg=252 gui=undercurl guisp=#a093c7
@@ -90,8 +91,8 @@ hi! Number ctermbg=232 ctermfg=75 guibg=#272c42
 hi! WildMenu ctermbg=255 ctermfg=232 guibg=#d4d5db guifg=#17171b
 hi! diffAdded ctermfg=150 guifg=#b4be82
 hi! diffRemoved ctermfg=203 guifg=#e27878
-hi! ALEErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
-hi! ALEWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+hi! ALEErrorSign ctermbg=232 ctermfg=203 guibg=#1e2132 guifg=#e27878
+hi! ALEWarningSign ctermbg=232 ctermfg=216 guibg=#1e2132 guifg=#e2a478
 hi! ALEVirtualTextError ctermfg=203 guifg=#e27878
 hi! ALEVirtualTextWarning ctermfg=216 guifg=#e2a478
 hi! CtrlPMode1 ctermbg=241 ctermfg=232 guibg=#5a5f72 guifg=#17171b
@@ -105,10 +106,10 @@ hi! GitGutterChangeDelete ctermbg=235 ctermfg=109 guibg=#1e2132 guifg=#89b8c2
 hi! GitGutterDelete ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
 hi! Sneak ctermbg=140 ctermfg=232 guibg=#a093c7 guifg=#161821
 hi! SneakScope ctermbg=236 ctermfg=242 guibg=#272c42 guifg=#6b7089
-hi! SyntasticErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
-hi! SyntasticStyleErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
-hi! SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
-hi! SyntasticWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+hi! SyntasticErrorSign ctermbg=232 ctermfg=203 guibg=#1e2132 guifg=#e27878
+hi! SyntasticStyleErrorSign ctermbg=232 ctermfg=203 guibg=#1e2132 guifg=#e27878
+hi! SyntasticStyleWarningSign ctermbg=232 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+hi! SyntasticWarningSign ctermbg=232 ctermfg=216 guibg=#1e2132 guifg=#e2a478
 hi! ZenSpace ctermbg=203 guibg=#e27878
 hi! icebergALAccentRed ctermfg=203 guifg=#e27878
 
